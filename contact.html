@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact | SecureShield</title>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+<header class="header">
+  <div class="container">
+    <div class="logo">SecureShield</div>
+  </div>
+</header>
+
+<section class="container">
+<h1>Contact Us</h1>
+
+<form method="POST" action="/api/contact">
+  <input type="text" name="name" placeholder="Your Name" required minlength="2">
+  <input type="email" name="email" placeholder="Email Address" required>
+  <input type="text" name="company" placeholder="Company Name">
+  <textarea name="message" placeholder="Your security requirement" required minlength="10"></textarea>
+  <button type="submit" class="btn-primary">Submit</button>
+</form>
+
+<p class="note">
+Confidentiality is our priority. NDA can be executed before engagement.
+</p>
+</section>
+
+<footer>
+© 2025 SecureShield Cybersecurity
+</footer>
+</body>
+</html>
